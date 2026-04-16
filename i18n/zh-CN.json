@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "logo": "清姨托儿所",
+    "home": "首页",
+    "about": "关于我们",
+    "programs": "课程",
+    "reviews": "评价",
+    "gallery": "相册",
+    "schedule": "日程表",
+    "faq": "常见问题",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "清姨托儿所",
+    "subtitle": "让每个孩子闪耀",
+    "description": "位于圣利安卓的温馨家庭托儿所，提供优质托儿服务、中文沉浸式教学和营养家常饭菜。",
+    "cta": "联系我们"
+  },
+  "about": {
+    "title": "关于我们",
+    "welcome": "欢迎来到清姨托儿所",
+    "description": "我们提供温暖、安全、充满活力的环境，让孩子们可以学习、玩耍和成长。我们经验丰富的员工致力于培养每个孩子的独特潜能。",
+    "philosophy_title": "我们的理念",
+    "philosophy": "我们相信每个孩子都应该在充满爱的环境中探索、发现和按照自己的节奏发展。我们的双语课程向孩子们教授普通话和粤语，同时为终身学习打下坚实基础。",
+    "features": {
+      "safe": "安全清洁的环境",
+      "meals": "营养家常饭菜",
+      "bilingual": "双语教育",
+      "caring": "经验丰富、充满爱心的员工"
+    }
+  },
+  "programs": {
+    "title": "我们的课程",
+    "subtitle": "适合各年龄段的优质照顾",
+    "infant": {
+      "title": "婴儿照护",
+      "description": "为您的宝宝提供温柔、细心的照顾，个性化的关注和发展活动。"
+    },
+    "toddler": {
+      "title": "幼儿课程",
+      "description": "通过游戏、音乐和创意活动进行积极探索和早期学习。"
+    },
+    "preschool": {
+      "title": "学前班",
+      "description": "通过结构化学习、社交技能和入学准备，为孩子们做好幼儿园准备。"
+    },
+    "chinese": {
+      "title": "中文沉浸式教学",
+      "description": "每日普通话和粤语教学，包括故事、歌曲和文化活动。"
+    }
+  },
+  "reviews": {
+    "title": "家长评价",
+    "subtitle": "深受圣利安卓家庭信赖"
+  },
+  "gallery": {
+    "title": "相册",
+    "subtitle": "每日欢乐和学习的剪影"
+  },
+  "schedule": {
+    "title": "每日日程表",
+    "subtitle": "充满学习和乐趣的一天",
+    "activities": {
+      "arrival_freeplay": "到达和自由游戏",
+      "breakfast": "早餐/早点",
+      "chinese_lessons": "中文课和故事",
+      "arts_crafts": "艺术与手工",
+      "outdoor_play": "户外游戏/公园",
+      "lunch": "午餐时间",
+      "nap_time": "午睡时间",
+      "snack": "下午点心",
+      "activities": "学习活动和接送"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "您需要了解的一切",
+    "faq_hours_q": "你们的营业时间是什么？",
+    "faq_hours_a": "我们周一至周五营业，早上8:30至下午5:00。周末和主要节日休息。",
+    "faq_meals_q": "你们提供什么餐点？",
+    "faq_meals_a": "我们每天提供早餐/早点、午餐和下午点心。我们的餐点以健康的中式料理为主，营养丰富、种类多样。",
+    "faq_enrollment_q": "如何为我的孩子报名？",
+    "faq_enrollment_a": "请致电我们预约参观。我们会带您参观设施并讨论您孩子的需求。招生视名额而定。",
+    "faq_curriculum_q": "你们的课程是什么样的？",
+    "faq_curriculum_a": "我们的课程包括普通话和粤语教学、讲故事、艺术与手工、音乐、户外游戏和公园活动。我们还会在复活节和万圣节等节日举办特别活动。",
+    "faq_safety_q": "你们有什么安全措施？",
+    "faq_safety_a": "安全是我们的首要任务。我们的设施已获得许可，干净且有儿童安全防护。我们保持低师生比例，并有严格的接送程序。",
+    "faq_communication_q": "你们如何与家长沟通？",
+    "faq_communication_a": "我们每天提供关于您孩子活动、餐食和发展的更新。家长可以随时联系我们提出问题或疑虑。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们期待您的来电",
+    "address": "地址",
+    "phone": "电话",
+    "hours": "营业时间",
+    "weekdays": "周一至周五",
+    "weekend": "周六至周日",
+    "closed": "休息"
+  },
+  "footer": {
+    "tagline": "培育幼小心灵",
+    "rights": "版权所有",
+    "designed": "为圣利安卓的孩子们用心设计"
+  }
+}

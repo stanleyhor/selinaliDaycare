@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "logo": "清姨托兒所",
+    "home": "首頁",
+    "about": "關於我們",
+    "programs": "課程",
+    "reviews": "評價",
+    "gallery": "相簿",
+    "schedule": "日程表",
+    "faq": "常見問題",
+    "contact": "聯繫我們"
+  },
+  "hero": {
+    "title": "清姨托兒所",
+    "subtitle": "讓每個孩子閃耀",
+    "description": "位於聖利安卓的溫馨家庭托兒所，提供優質托兒服務、中文沉浸式教學和營養家常飯菜。",
+    "cta": "聯繫我們"
+  },
+  "about": {
+    "title": "關於我們",
+    "welcome": "歡迎來到清姨托兒所",
+    "description": "我們提供溫暖、安全、充滿活力的環境，讓孩子們可以學習、玩耍和成長。我們經驗豐富的員工致力於培養每個孩子的獨特潛能。",
+    "philosophy_title": "我們的理念",
+    "philosophy": "我們相信每個孩子都應該在充滿愛的環境中探索、發現和按照自己的節奏發展。我們的雙語課程向孩子們教授國語和粵語，同時為終身學習打下堅實基礎。",
+    "features": {
+      "safe": "安全清潔的環境",
+      "meals": "營養家常飯菜",
+      "bilingual": "雙語教育",
+      "caring": "經驗豐富、充滿愛心的員工"
+    }
+  },
+  "programs": {
+    "title": "我們的課程",
+    "subtitle": "適合各年齡段的優質照顧",
+    "infant": {
+      "title": "嬰兒照護",
+      "description": "為您的寶寶提供溫柔、細心的照顧，個性化的關注和發展活動。"
+    },
+    "toddler": {
+      "title": "幼兒課程",
+      "description": "通過遊戲、音樂和創意活動進行積極探索和早期學習。"
+    },
+    "preschool": {
+      "title": "學前班",
+      "description": "通過結構化學習、社交技能和入學準備，為孩子們做好幼稚園準備。"
+    },
+    "chinese": {
+      "title": "中文沉浸式教學",
+      "description": "每日國語和粵語教學，包括故事、歌曲和文化活動。"
+    }
+  },
+  "reviews": {
+    "title": "家長評價",
+    "subtitle": "深受聖利安卓家庭信賴"
+  },
+  "gallery": {
+    "title": "相簿",
+    "subtitle": "每日歡樂和學習的剪影"
+  },
+  "schedule": {
+    "title": "每日日程表",
+    "subtitle": "充滿學習和樂趣的一天",
+    "activities": {
+      "arrival_freeplay": "到達和自由遊戲",
+      "breakfast": "早餐/早點",
+      "chinese_lessons": "中文課和故事",
+      "arts_crafts": "藝術與手工",
+      "outdoor_play": "戶外遊戲/公園",
+      "lunch": "午餐時間",
+      "nap_time": "午睡時間",
+      "snack": "下午點心",
+      "activities": "學習活動和接送"
+    }
+  },
+  "faq": {
+    "title": "常見問題",
+    "subtitle": "您需要了解的一切",
+    "faq_hours_q": "你們的營業時間是什麼？",
+    "faq_hours_a": "我們週一至週五營業，早上8:30至下午5:00。週末和主要節日休息。",
+    "faq_meals_q": "你們提供什麼餐點？",
+    "faq_meals_a": "我們每天提供早餐/早點、午餐和下午點心。我們的餐點以健康的中式料理為主，營養豐富、種類多樣。",
+    "faq_enrollment_q": "如何為我的孩子報名？",
+    "faq_enrollment_a": "請致電我們預約參觀。我們會帶您參觀設施並討論您孩子的需求。招生視名額而定。",
+    "faq_curriculum_q": "你們的課程是什麼樣的？",
+    "faq_curriculum_a": "我們的課程包括國語和粵語教學、講故事、藝術與手工、音樂、戶外遊戲和公園活動。我們還會在復活節和萬聖節等節日舉辦特別活動。",
+    "faq_safety_q": "你們有什麼安全措施？",
+    "faq_safety_a": "安全是我們的首要任務。我們的設施已獲得許可，乾淨且有兒童安全防護。我們保持低師生比例，並有嚴格的接送程序。",
+    "faq_communication_q": "你們如何與家長溝通？",
+    "faq_communication_a": "我們每天提供關於您孩子活動、餐食和發展的更新。家長可以隨時聯繫我們提出問題或疑慮。"
+  },
+  "contact": {
+    "title": "聯繫我們",
+    "subtitle": "我們期待您的來電",
+    "address": "地址",
+    "phone": "電話",
+    "hours": "營業時間",
+    "weekdays": "週一至週五",
+    "weekend": "週六至週日",
+    "closed": "休息"
+  },
+  "footer": {
+    "tagline": "培育幼小心靈",
+    "rights": "版權所有",
+    "designed": "為聖利安卓的孩子們用心設計"
+  }
+}

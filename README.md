@@ -1,44 +1,126 @@
-# Selina Li Daycare — marketing site
+# Ms Sophia Daycare Website
 
-Single-page React (Vite + TypeScript) site for **Selina Li Daycare**, deployed to [Netlify](https://www.netlify.com/).
+A modern, responsive website for Ms Sophia Daycare built with React Native Web and Expo. Features trilingual support (English, Traditional Chinese, Simplified Chinese), parallax scrolling effects, and cross-platform compatibility.
 
-## Requirements
+## Features
 
-- **Node.js 22.x** (see [`.nvmrc`](.nvmrc))
+- **Cross-Platform**: Built with React Native Web - same codebase works on web, iOS, and Android
+- **Trilingual Support**: English, Traditional Chinese (繁體中文), and Simplified Chinese (简体中文)
+- **Parallax Scrolling**: Smooth parallax effects on hero and section dividers
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Modern UI**: Bright, lively design with coral, yellow, and teal color scheme
 
-If `npm install` fails due to a global npm cache permission error, install using a project-local cache:
+## Tech Stack
+
+- **Framework**: Expo SDK 54 with React Native Web
+- **React**: React 19
+- **Routing**: Expo Router (file-based routing)
+- **i18n**: i18next + react-i18next
+- **Styling**: React Native StyleSheet (no CSS frameworks)
+- **Animations**: React Native Animated API
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ (recommended: 20+)
+- npm or yarn
+
+### Installation
 
 ```bash
-npm install --cache ./.npm-cache
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Run web version
+npm run web
+
+# Run iOS (requires macOS and Xcode)
+npm run ios
+
+# Run Android (requires Android Studio)
+npm run android
 ```
 
-## Scripts
+### Development
 
-| Command        | Description              |
-| -------------- | ------------------------ |
-| `npm run dev`  | Local dev server (Vite)  |
-| `npm run build`| Production build → `dist`|
-| `npm run preview` | Preview production build locally |
+The development server will start at `http://localhost:8081`. Press `w` to open in web browser.
 
-## Deploy on Netlify
+## Project Structure
 
-1. Connect this repo to Netlify.
-2. Use the settings in [`netlify.toml`](netlify.toml): build command `npm run build`, publish directory `dist`, Node **22**.
-3. Deploy.
+```
+├── app/                    # Expo Router pages
+│   ├── _layout.tsx        # Root layout with providers
+│   ├── index.tsx          # Main home page
+│   └── +html.tsx          # Custom HTML for web
+├── components/            # React Native components
+│   ├── Navbar.tsx         # Navigation with language switcher
+│   ├── Hero.tsx           # Hero section with parallax
+│   ├── About.tsx          # About section
+│   ├── Programs.tsx       # Programs/services section
+│   ├── Reviews.tsx        # Testimonials carousel
+│   ├── Gallery.tsx        # Photo gallery grid
+│   ├── Schedule.tsx       # Daily schedule table
+│   ├── FAQ.tsx            # Accordion FAQ
+│   ├── Contact.tsx        # Contact info and map
+│   └── Footer.tsx         # Footer
+├── constants/
+│   ├── theme.ts           # Colors, typography, spacing
+│   └── data.ts            # Static content data
+├── i18n/                  # Internationalization
+│   ├── index.ts           # i18n configuration
+│   ├── en.json            # English translations
+│   ├── zh-TW.json         # Traditional Chinese
+│   └── zh-CN.json         # Simplified Chinese
+└── app.json               # Expo configuration
+```
 
-## Languages
+## Deployment
 
-- **English** is the default. **Traditional Chinese (繁體中文)** and **Simplified Chinese (简体中文)** are available from the header language buttons.
-- The last chosen language is stored in `localStorage` under `selinali-locale` (`en`, `zh-TW`, or `zh-CN`) and restored on the next visit.
-- Copy lives in [`src/i18n/messages.ts`](src/i18n/messages.ts) (`en`, `zh-TW`, and `zh-CN` objects).
+### Deploy to Netlify
 
-## Content updates
+1. **Connect to Netlify**:
+   - Push your code to GitHub/GitLab/Bitbucket
+   - Connect your repository to Netlify
+   - Netlify will auto-detect the `netlify.toml` configuration
 
-- **Reviews (Google-style cards)**: Edit [`src/data/reviews.ts`](src/data/reviews.ts) — each item has `quote`, `author`, optional `relation`, and `rating` (1–5). Replace quotes with **exact wording** from your Google Business Profile when you have permission to display them.
-- **Theme**: Colors and spacing live in [`src/theme/tokens.ts`](src/theme/tokens.ts) and are applied as CSS variables via [`src/theme/applyTheme.ts`](src/theme/applyTheme.ts).
-- **Background photos**: URLs are listed in [`src/data/backgroundImages.ts`](src/data/backgroundImages.ts) (stock images from [Unsplash](https://unsplash.com)), including a second hero layer (`heroAccent`), contact ambience, and the horizontal **Fun & smiles** gallery strip (`galleryStripImages`). Replace any URL with your own hosted images for a fully custom look; Unsplash’s [license](https://unsplash.com/license) applies to the default stock photos.
+2. **Manual Deploy**:
+   ```bash
+   # Build for web
+   npm run build:web
+   
+   # The dist/ folder contains the static site
+   # Upload to Netlify manually or use Netlify CLI
+   npx netlify deploy --prod --dir=dist
+   ```
 
+### Build Commands
+
+- **Web Build**: `npm run build:web` → outputs to `dist/`
+- **iOS Build**: Use EAS Build or Xcode
+- **Android Build**: Use EAS Build or Android Studio
+
+## Configuration
+
+### Environment Variables
+
+No environment variables required for basic deployment.
+
+### Customization
+
+1. **Colors**: Edit `constants/theme.ts`
+2. **Content**: Edit `constants/data.ts` and `i18n/*.json`
+3. **Contact Info**: Update `constants/data.ts` with your details
+
+## Contact Information
+
+- **Address**: 3587 Clifford Ct, Castro Valley, CA 94546
+- **Phone**: (415) 728-1896
+- **Hours**: Monday - Friday, 6:30 AM - 6:30 PM
 
 ## License
 
-Private project for Selina Li Daycare.
+Private - All rights reserved.

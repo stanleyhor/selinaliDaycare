@@ -1,0 +1,11 @@
+export { Navbar } from './Navbar';
+export { Hero } from './Hero';
+export { About } from './About';
+export { Programs } from './Programs';
+export { Reviews } from './Reviews';
+export { Gallery } from './Gallery';
+export { Schedule } from './Schedule';
+export { FAQ } from './FAQ';
+export { Contact } from './Contact';
+export { Footer } from './Footer';
+export { ParallaxDivider } from './ParallaxDivider';

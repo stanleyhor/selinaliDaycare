@@ -1,6 +1,6 @@
-# Ms Sophia Daycare Website
+# Selina Li Daycare Website
 
-A modern, responsive website for Ms Sophia Daycare built with React Native Web and Expo. Features trilingual support (English, Traditional Chinese, Simplified Chinese), parallax scrolling effects, and cross-platform compatibility.
+A modern, responsive website for Selina Li Daycare built with React Native Web and Expo. Features trilingual support (English, Traditional Chinese, Simplified Chinese), parallax scrolling effects, and cross-platform compatibility.
 
 ## Features
 

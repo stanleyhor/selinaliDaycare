@@ -64,6 +64,7 @@ export const Schedule: React.FC = () => {
             />
           ))}
         </View>
+        <Text style={styles.scheduleFood}>{t('schedule.food')}</Text>
       </View>
     </View>
   );
@@ -92,6 +93,12 @@ const styles = StyleSheet.create({
     color: colors.textLight,
     textAlign: 'center',
     marginBottom: spacing.xl,
+  },
+  scheduleFood: {
+    fontSize: typography.fontSizes.lg,
+    color: colors.textLight,
+    textAlign: 'center',
+    marginTop: spacing.xl,
   },
   scheduleCard: {
     backgroundColor: colors.white,

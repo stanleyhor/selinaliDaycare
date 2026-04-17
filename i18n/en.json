@@ -61,22 +61,25 @@
     "title": "Daily Schedule",
     "subtitle": "A structured day full of learning and fun",
     "activities": {
-      "arrival_freeplay": "Arrival & Free Play",
-      "breakfast": "Breakfast / Morning Snack",
-      "chinese_lessons": "Chinese Lessons & Stories",
-      "arts_crafts": "Arts & Crafts",
+      "arrival_freeplay": "Arrival",
+      "breakfast": "Morning Snack",
+      "chinese_lessons": "Game Time",
+      "arts_crafts": "Chinese Lessons",
       "outdoor_play": "Outdoor Play / Park",
       "lunch": "Lunch Time",
       "nap_time": "Nap Time",
       "snack": "Afternoon Snack",
-      "activities": "Learning Activities & Pick-up"
-    }
+      "activities": "Story time",
+      "dinner": "Dinner",
+      "pickup": "Pick-up"
+    },
+    "food": "Lunch and dinner are included, with daily snacks, fruit, and milk."
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Everything you need to know",
     "faq_hours_q": "What are your operating hours?",
-    "faq_hours_a": "We are open Monday through Friday, 8:30 AM to 5:00 PM. We are closed on weekends and major holidays.",
+    "faq_hours_a": "We are open Monday through Friday, 8:30 AM to 6:00 PM. We are closed on weekends and major holidays.",
     "faq_meals_q": "What meals do you provide?",
     "faq_meals_a": "We provide breakfast/morning snack, lunch, and afternoon snack daily. Our meals feature healthy Chinese cuisine with varied and nutritious options.",
     "faq_enrollment_q": "How do I enroll my child?",

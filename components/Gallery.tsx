@@ -16,7 +16,8 @@ interface GalleryItemProps {
   onPress?: () => void;
 }
 
-const GalleryItem: React.FC<GalleryItemProps> = ({ image, onPress }) => (
+const GalleryItem: React.FC<GalleryItemProps> = ({ image, onPress }) => {
+  return (
   <Pressable
     onPress={onPress}
     style={({ pressed }) => [
@@ -24,12 +25,13 @@ const GalleryItem: React.FC<GalleryItemProps> = ({ image, onPress }) => (
       pressed && styles.galleryItemPressed,
     ]}
   >
-    <Image source={{ uri: image.uri }} style={styles.galleryImage} />
+    <Image source={image.uri} style={styles.galleryImage} />
     <View style={styles.imageOverlay}>
       <Text style={styles.imageAlt}>{image.alt}</Text>
     </View>
   </Pressable>
-);
+  )
+};
 
 export const Gallery: React.FC = () => {
   const { t } = useTranslation();

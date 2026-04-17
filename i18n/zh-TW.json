@@ -61,22 +61,25 @@
     "title": "每日日程表",
     "subtitle": "充滿學習和樂趣的一天",
     "activities": {
-      "arrival_freeplay": "到達和自由遊戲",
-      "breakfast": "早餐/早點",
-      "chinese_lessons": "中文課和故事",
-      "arts_crafts": "藝術與手工",
-      "outdoor_play": "戶外遊戲/公園",
+      "arrival_freeplay": "迎接小朋友",
+      "breakfast": "點心時間",
+      "chinese_lessons": "遊戲時間",
+      "arts_crafts": "學前課程",
+      "outdoor_play": "戶外活動",
       "lunch": "午餐時間",
       "nap_time": "午睡時間",
       "snack": "下午點心",
-      "activities": "學習活動和接送"
-    }
+      "activities": "故事時間",
+      "dinner": "晚餐時間",
+      "pickup": "家长接小朋友"
+    },
+    "food": "包含午餐與晚餐，每天提供點心、水果及牛奶。"
   },
   "faq": {
     "title": "常見問題",
     "subtitle": "您需要了解的一切",
     "faq_hours_q": "你們的營業時間是什麼？",
-    "faq_hours_a": "我們週一至週五營業，早上8:30至下午5:00。週末和主要節日休息。",
+    "faq_hours_a": "我們週一至週五營業，早上8:30至下午6:00。週末和主要節日休息。",
     "faq_meals_q": "你們提供什麼餐點？",
     "faq_meals_a": "我們每天提供早餐/早點、午餐和下午點心。我們的餐點以健康的中式料理為主，營養豐富、種類多樣。",
     "faq_enrollment_q": "如何為我的孩子報名？",

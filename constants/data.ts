@@ -6,7 +6,7 @@ export const contactInfo = {
   zip: '94579',
   phone: '(510) 712-1968',
   hours: {
-    weekdays: '8:30 AM - 5:00 PM',
+    weekdays: '8:30 AM - 6:00 PM',
     saturday: 'Closed',
     sunday: 'Closed',
   },
@@ -72,15 +72,17 @@ export const reviews = [
 ];
 
 export const dailySchedule = [
-  { time: '8:30 AM - 9:00 AM', activity: 'arrival_freeplay' },
-  { time: '9:00 AM - 9:30 AM', activity: 'breakfast' },
-  { time: '9:30 AM - 10:30 AM', activity: 'chinese_lessons' },
-  { time: '10:30 AM - 11:30 AM', activity: 'arts_crafts' },
-  { time: '11:30 AM - 12:30 PM', activity: 'outdoor_play' },
-  { time: '12:30 PM - 1:30 PM', activity: 'lunch' },
-  { time: '1:30 PM - 3:00 PM', activity: 'nap_time' },
-  { time: '3:00 PM - 3:30 PM', activity: 'snack' },
-  { time: '3:30 PM - 5:00 PM', activity: 'activities' },
+  { time: '8:30 AM - 9:30 AM', activity: 'arrival_freeplay' },
+  { time: '9:30 AM - 10:00 AM', activity: 'breakfast' },
+  { time: '10:00 AM - 10:30 AM', activity: 'chinese_lessons' },
+  { time: '10:30 AM - 11:15 AM', activity: 'arts_crafts' },
+  { time: '11:20 AM - 11:50 PM', activity: 'outdoor_play' },
+  { time: '12:00 PM - 12:30 PM', activity: 'lunch' },
+  { time: '1:00 PM - 3:00 PM', activity: 'nap_time' },
+  { time: '3:30 PM - 4:00 PM', activity: 'snack' },
+  { time: '4:00 PM - 4:30 PM', activity: 'activities' },
+  { time: '4:45 PM - 5:15 PM', activity: 'dinner' },
+  { time: '5.15 PM', activity: 'pickup' }
 ];
 
 export const programs = [
@@ -116,10 +118,10 @@ export const faqItems = [
 ];
 
 export const galleryImages = [
-  { id: '1', uri: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400', alt: 'Children playing' },
-  { id: '2', uri: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400', alt: 'Arts and crafts' },
-  { id: '3', uri: 'https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=400', alt: 'Reading time' },
-  { id: '4', uri: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=400', alt: 'Outdoor activities' },
-  { id: '5', uri: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=400', alt: 'Learning together' },
-  { id: '6', uri: 'https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=400', alt: 'Creative play' },
+  { id: '1', uri: require('../assets/1.jpg'), alt: 'Children playing' },
+  { id: '2', uri: require('../assets/2.jpg'), alt: 'Arts and crafts' },
+  { id: '3', uri: require('../assets/3.jpg'), alt: 'Reading time' },
+  { id: '4', uri: require('../assets/4.jpg'), alt: 'Outdoor activities' },
+  { id: '5', uri: require('../assets/5.jpg'), alt: 'Learning together' },
+  { id: '6', uri: require('../assets/6.jpg'), alt: 'Creative play' },
 ];
